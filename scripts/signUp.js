@@ -43,7 +43,7 @@ function signUpNow(e) {
     }
     sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
     sessionStorage.setItem('loginTime', JSON.stringify(new Date().getTime()));
-    history.pushState({}, "", "/home.html");
+    history.pushState({}, "", "/jw-firstwork/home.html");
     window.location.reload();
   }
   e.preventDefault();
