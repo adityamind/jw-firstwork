@@ -1,0 +1,78 @@
+
+  .container-signin{
+    text-align: center;
+    width: 600px;
+    margin: 50px auto 0px auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    height: 370px;
+   display: flex;
+    box-shadow: inset 2px 2px 4px rgba(255,255,255,0.6),inset -2px -2px 4px rgba(238, 240, 242, 0.5),2px 2px 5px black;
+  }
+  .col-right,.col-left{
+    flex: 1;
+  }
+  .col-left{
+    background-color: #2aa15f;
+  }
+
+  .login-text{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 90px;
+    color: white;
+  }
+ .btn{
+  cursor: pointer;
+  border: 1px solid black;
+  height: 30px;
+  background-color: #39c376;
+  border-radius: 2rem;
+ }
+
+ 
+form{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+form input{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   text-align: center;
+}
+form button{
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 35px;
+    margin:auto;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: aqua;
+  transition: 2s;
+}
+.btn-signup{
+    background-color: transparent;
+    color: transparent;
+    border:none;
+    cursor: none;
+}
+
+.sidebar-btn{
+  width: 30px;
+  height: 20px;
+  border: none;
+}
+
+.menu-item{
+  display: none;
+}
