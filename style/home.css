@@ -122,6 +122,7 @@ p {
 .comment-count,
 .like-count {
   width: 30px;
+  margin:auto;
   cursor: default;
 }
 
