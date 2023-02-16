@@ -45,7 +45,7 @@ function signInNow(e) {
       }
       sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
       sessionStorage.setItem('loginTime', JSON.stringify(new Date().getTime()));
-      location.href = "/jw-firstwork/home.html";
+      location.href = "home.html";
     }
   }
   e.preventDefault();
