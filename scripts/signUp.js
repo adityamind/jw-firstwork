@@ -24,7 +24,7 @@ function signUpNow(e) {
     if (node.email==email) {
       userExists=1;
       window.alert("Account Already Exists");
-      history.pushState({}, "", "/index.html");
+      location.href="/index.html";
       window.location.reload();
     }
   });
@@ -43,7 +43,7 @@ function signUpNow(e) {
     }
     sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
     sessionStorage.setItem('loginTime', JSON.stringify(new Date().getTime()));
-    history.pushState({}, "", "/jw-firstwork/home.html");
+    location.href= "/home.html";
     window.location.reload();
   }
   e.preventDefault();
