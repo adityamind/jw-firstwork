@@ -2,7 +2,7 @@
 
 if (sessionStorage.getItem('currentUser') === null) {
     alert('Please SignIn First');
-    location.href = "/index.html";
+    location.href = "index.html";
 }
 
 //logout 
@@ -292,7 +292,7 @@ function liker(id) {
     location.reload();
 }
 function noRefresh(e) {
-    console.log(e);
+   
     e.preventDefault();
 }
 
