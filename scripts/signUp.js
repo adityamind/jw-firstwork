@@ -24,8 +24,8 @@ function signUpNow(e) {
     if (node.email==email) {
       userExists=1;
       window.alert("Account Already Exists");
-      location.href="/index.html";
-      window.location.reload();
+      location.href="index.html";
+      
     }
   });
   if(userExists==0){
@@ -43,8 +43,8 @@ function signUpNow(e) {
     }
     sessionStorage.setItem('currentUser', JSON.stringify(currentUser));
     sessionStorage.setItem('loginTime', JSON.stringify(new Date().getTime()));
-    location.href= "/home.html";
-    window.location.reload();
+    location.href= "home.html";
+   
   }
   e.preventDefault();
 }
